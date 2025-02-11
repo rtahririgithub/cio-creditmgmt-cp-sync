@@ -1,0 +1,182 @@
+{
+    "id": "ed3d7388-095e-446c-9590-1fde3338cc69",
+    "href": "/customer/creditprofile-mgmt/v2/creditProfile/ed3d7388-095e-446c-9590-1fde3338cc69",
+  "validFor": {
+    "endDateTime": null,
+    "startDateTime": "2021-01-09T16:51:22.620Z"
+  },
+  "creditClassCd": "R",
+  "creditClassTs": "2022-10-31T15:41:48.113Z",
+  "primaryCreditScoreCd": "800",
+  "primaryCreditScoreTypeCd": "CUSTOM",
+  "creditRiskLevelNum": 900,
+  "creditRiskLevelDecisionCd": "RL001",
+  "creditDecisionCd": "D001",
+  "creditDecisionTs": "1984-06-29T15:41:48.113Z",
+  "creditProgramName": "",
+  "channel": {
+    "originatorAppId": 12373,
+    "channelOrgId": 124432,
+    "@type": "Channel",
+    "userId": 122324
+  },
+  "warnings": [
+    {
+      "warningCategoryCd": "BCW",
+      "warningCd": "FA001",
+      "warningDetectionTs": "2021-12-15T20:49:01.839Z",
+      "warningStatusCd": "UNVERIFIED",
+      "resolvedPermanentlyInd": false,
+      "validFor": {
+        "endDateTime": "",
+        "startDateTime": "2021-12-15T20:49:01.839Z"
+      }
+    },
+    {
+      "warningCategoryCd": "BCW",
+      "warningCd": "FA0012",
+      "warningDetectionTs": "2021-12-15T20:49:01.839Z",
+      "warningStatusCd": "UNVERIFIED",
+      "resolvedPermanentlyInd": false,
+      "validFor": {
+        "endDateTime": "",
+        "startDateTime": "2021-12-15T20:49:01.839Z"
+      }
+    }    
+  ],
+  "relatedParty": [
+    {
+      "id": "9000086",
+      "@type": "Customer",
+      "role": "customer",
+      "href": "https://host:port/tmf-api/customerManagement/v4/customer/110005",
+      "engagedParty": {
+        "@referredType": "Individual",
+        "role": "Customer",
+        "birthDate": "1990-05-28",
+        "contactMedium": [
+          {
+            "characteristic": {
+              "contactType": "home",
+              "city": "Burnaby",
+              "country": "CAN",
+              "postCode": "M2X M0M",
+              "stateOrProvince": "BC",
+              "street1": "114 Center Street",
+              "street2": "Unit 23"
+            },
+            "mediumType": "postalAddress",
+            "preferred": "true",
+            "validFor": {
+              "endDateTime": null,
+              "startDateTime": "2021-01-09T17:51:22.620Z"
+            }
+          }
+        ],
+        "individualIdentification": [
+          {
+            "identificationId": "DL2002",
+            "identificationType": "DL",
+            "issuingAuthority": "BC",
+            "issuingDate": "2020-01-09T16:51:22.620Z",
+            "validFor": {
+              "endDateTime": "",
+              "startDateTime": ""
+            },
+            "@baseType": "IndividualIdentification",
+            "@type": "TelusIndividualIdentification",
+            "telusCharacteristic": {
+              "provinceCd": "BC"
+            }
+          },
+            {
+                "identificationId": "pc1751",
+                "identificationType": "PRV",
+                "issuingAuthority": "BC",
+                "issuingDate": "2020-01-09T16:51:22.620Z",
+                "validFor": {
+                    "endDateTime": "",
+                    "startDateTime": ""
+                },
+                "telusCharacteristic": {
+                    "provinceCd": "BC"
+                },
+                "@baseType": "IndividualIdentification",
+                "@type": "TelusIndividualIdentification"
+            }                    
+        ],
+        "characteristic": [
+            {
+            "name": "EMPLOYMENT_STATUS_CD ",
+            "value": "EMPL",
+            "valueType": "String"
+            },
+            {
+            "name": "LEGAL_CARE_CD",
+            "value": "N",
+            "valueType": "String"
+            },
+            {
+            "name": "RESIDENCY_CD",
+            "value": "O",
+            "valueType": "String"
+            }
+        ]        
+      }
+    }
+
+  ],
+  "riskLevelRiskAssessment": {
+    "id": "565656",
+    "href": "https://host:port/tmf-api/RiskAssessmentManagement/v1/RiskAssessment/565656",
+    "@referredType": "RiskAssessment"
+  },
+  "bureauDecisionCd": "E29",
+  "applicationProvinceCd": "BC",
+  "creditCheckConsentCd": "Y",
+  "lineOfBusiness": "WIRELINE",
+  "attachments": [
+    {
+      "id": "888",
+      "@referredType": "CreditBureauReport",
+      "href": "https://host:port/tmf-api/CreditBureauManagement/v1/CreditBureauReport/888",
+      "attachmentType": "Bureau Report",
+      "mimeType": "application/text",
+      "contentSourceCode": "TRANSUNION",
+      "size": {
+        "amount": 200.24,
+        "units": "KB"
+      },
+      "content": "VVNFUiBSRUYuIDM4NTY2NTc4ICAgICAgICAgIFRISVMgRk9STSBQUk9EVUNFRCBCWSBFUVVJRkFYIEMuSS5TLiAgICAgICBQICAgMSAgICANCiBNVUxUSVBMRSBGSUxFUyBJTkRJQ0FUT1I6IDAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogRVFVSUZBWCBBTkQgQUZGSUxJQVRFIEJVUkVBVVMtUkVGRVIgQ09OU1VNRVIgSU5RVUlSSUVTIFRPIDEtODAwLTQ2NS03MTY2ICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgICAgICBOTyBBTEVSVCBJTkRJQ0FUT1IgT04gRklMRSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICBGTiAwMC0wMDA4MDk1LTAwLTAxOCBVTiA0MjEzNTM2NDYxICAgMTIvMTMvMjEgICAgICAgICAgICAgICAgICBQRzAxICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCkdFTkVSSUMgQVRUUklCVVRFUyAgICgxMDI5NC1BLTEpICAgICAgICAgICAgU0NPUkU6ICAgICAgMCAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioNCiBTQUZFU0NBTiBXQVJOSU5HOiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogIDEtIE5PIEZSQVVEIElORElDQVRJT04gV0FTIERFVEVDVEVEICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICBTQ09SRSBDT01QTEVURSAxLjAgICAgU0NPUkU6ICAgNjAzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgVE9PIE1BTlkgVEVMQ08gSU5RVUlSSUVTICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgIFRPTyBGRVcgT1BFTiBUUkFERVMgSU4gTkVJR0hCT1VSSE9PRCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICBUT08gTUFOWSBJTlFVSVJJRVMgSU4gVEhFIExBU1QgMyBNT05USFMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgVEhJTiBGSUxFIEFVR01FTlRFRCBXSVRIIEFHR1JFR0FURUQgQ1JFRElUIERBVEEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCipUWkNEQUhDRE1TRUNPTkQsQlRDREFIQ0RNU0VDT05EICBTSU5DRSAwNy8xOC8xOSAgRkFEIDEwLzA2LzIxICAgICAgICAgICAgICAgICAgDQogMzAwLENPTlNJTElVTSBQTCwsTk9SVEggWU9SSyxPTiBNM0MxWjEsU1RTIFJQVEQgMDcvMTkgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIEJEUy0wMS8wMS83OCwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCipJTlFTLVNVQkpFQ1QgU0hPV1MgIDUgSU5RVUlSSUVTIFNJTkNFIDA5LzIxICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQoxMC8wNi8yMSA0NTFVVDQwMyAgIFRFTFVTIENPTU1VTklDQSAgICAgICAoNDE2KSAyNzktNzg0NCAgICAgICAgICAgICAgICAgICAgICAgIA0KMTAvMDUvMjEgNDUxVVQ0MDMgICBURUxVUyBDT01NVU5JQ0EgICAgICAgKDQxNikgMjc5LTc4NDQgICAgICAgICAgICAgICAgICAgICAgICANCjEwLzA0LzIxIDQ1MVVUNDAzICAgVEVMVVMgQ09NTVVOSUNBICAgICAgICg0MTYpIDI3OS03ODQ0ICAgICAgICAgICAgICAgICAgICAgICAgDQowOS8xNS8yMSA0NTFVVDQwMyAgIFRFTFVTIENPTU1VTklDQSAgICAgICAoNDE2KSAyNzktNzg0NCAgICAgICAgICAgICAgICAgICAgICAgIA0KMDkvMDcvMjEgNDUxVVQ0MDMgICBURUxVUyBDT01NVU5JQ0EgICAgICAgKDQxNikgMjc5LTc4NDQgICAgICAgICAgICAgICAgICAgICAgICANCjA3LzI3LzE5IDQ1MVVUMTcxICAgVEVMVVMgQ09NTVVOSUNBVElPTlMgICg0MTYpIDI3OS03ODQ0ICAgICAgICAgICAgICAgICAgICAgICAgDQowNy8yMy8xOSA0NTFVVDE3MSAgIFRFTFVTIENPTU1VTklDQVRJT05TICAoNDE2KSAyNzktNzg0NCAgICAgICAgICAgICAgICAgICAgICAgIA0KMDcvMTgvMTkgNDUxVVQxNzEgICBURUxVUyBDT01NVU5JQ0FUSU9OUyAgKDQxNikgMjc5LTc4NDQgICAgICAgICAgICAgICAgICAgICAgICANCiAjIElOUVMgLSA4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQpTVU1NQVJZICBOTy1QUi9PSSxGQi1OTywgVE9UQUwtMCxIQyQwLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQpFTkQgT0YgUkVQT1JUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA=="
+    }
+  ],
+  "creditCheckConsentCxd": "NA",
+  "characteristic": [
+    {
+      "name": "BYPASS_MATCH_IND",
+      "value": "N",
+      "valueType": "String"
+    },
+    {
+      "name": "COMMENT_TXT",
+      "value": "some comment xxxxxx",
+      "valueType": "String"
+    },
+    {
+      "name": "CPROFL_FORMAT_CD",
+      "value": "O",
+      "valueType": "String"
+    }
+  ],
+  "boltonInd": true,
+  "productCategoryQualification": [
+    {
+      "categoryCd": "SL",
+      "qualified": true
+    },
+    {
+      "categoryCd": "HS",
+      "qualified": true
+    }
+  ]
+}
